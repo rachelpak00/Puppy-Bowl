@@ -33,7 +33,7 @@ async function renderAllPlayers() {
             localStorage.setItem("puppyName", currentPuppy.name);
             localStorage.setItem("puppyBreed", currentPuppy.breed);
             localStorage.setItem("puppyStatus", currentPuppy.status);
-            localStorage.setItem("puppyImage", currentPuppy.imageURL);
+            localStorage.setItem("puppyImage", currentPuppy.imageUrl);
 
             window.location.href = "puppy-details.html"
         })
